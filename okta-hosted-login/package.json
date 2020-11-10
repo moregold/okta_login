@@ -1,0 +1,39 @@
+{
+  "name": "samples-js-react",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@okta/okta-react": "^3.0.7",
+    "colors": "^1.4.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.2.1",
+    "text-encoding": "^0.7.0"
+  },
+  "scripts": {
+    "start": "cross-env PORT=8080 react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "echo 'Tests not yet implemented' && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.1.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
