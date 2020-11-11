@@ -26,5 +26,4 @@ async function checkAuthentication() {
   }
 }
 
-/* eslint-disable import/prefer-default-export */
 export { checkAuthentication };
