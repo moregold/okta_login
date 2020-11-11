@@ -32,6 +32,7 @@ CLIENT_ID=123xxxxx123
 ```
 npm install
 cd okta-hosted-login
+npm install
 npm start
 ```
 
